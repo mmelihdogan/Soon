@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Source Sans Pro", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #414f57;
+}
