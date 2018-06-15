@@ -13,3 +13,5 @@ All HTML5 Rocket templates are licensed under the CC0 License, which means that 
 
 ## Photos and Resources Used
 All photos and resources used were licensed under the CC0 License.
+
+- Background photo from https://www.pexels.com/photo/dawn-dusk-lake-lake-mcdonald-355423/
