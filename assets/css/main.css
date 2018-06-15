@@ -3,7 +3,149 @@
     padding: 0;
 }
 body {
-    font-family: "Source Sans Pro", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
     color: #414f57;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 300;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+body, input {
+    font-family: "Source Sans Pro", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.main {
+    position: relative;
+    width: 400px;
+    padding-left: 100px;
+    padding-top: 100px;
+    color: white;
+    text-align: left;
+}
+div.main header h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 100px;
+}
+div.main header p {
+    font-size: 20px;
+    width: 400px;
+    line-height: 30px;
+}
+div.main header p strong {
+    font-weight: 600;
+}
+div.main form {
+    margin-top: 35px;
+}
+div.main form input {
+    border: none;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1;
+    background-color: transparent;
+    outline: none;
+    height: 50px;
+    padding: 0 10px;
+    border: 1px solid rgba(255,255,255,0.4);
+    transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out,color 0.25s ease-in-out;
+    box-sizing: border-box;
+    vertical-align: text-top;
+    color: rgba(255,255,255,0.7);
+}
+div.main form input[type=text]:focus,div.main form input[type=submit]:hover {
+    background-color: rgba(255,255,255,0.05);
+    border-color: white;
+    color: white;
+}
+div.main form input[type=text]{
+    margin-right: 10px;
+    width: 250px;
+}
+div.main form input[type=submit]{
+    padding: 0 15px;
+    cursor: pointer;
+}
+footer {
+    position: absolute;
+    bottom: 35px;
+    left: 100px;
+    color: rgba(255,255,255,0.7);
+}
+footer div.links {
+    display: block;
+}
+footer div.links a {
+    text-decoration: none;
+    width: 40px;
+    display: inline-block;
+    margin: 0 5px;
+    margin-bottom: 10px;
+}
+footer div.links a svg {
+    width: 100%;
+    height: auto;
+}
+footer div.links a svg path {
+    fill: rgba(255,255,255,0.2);
+    transition: fill 0.25s;
+}
+footer div.links a:hover svg path {
+    fill: rgba(255,255,255,0.7);
+}
+footer p {
+    font-size: 17.5px;
+    width: 150px;
+    text-align: left;
+    display: inline-block;
+}
+footer p span {
+    width: 132.5px;
+    text-align: center;
+    display: inline-block;
+}
+@media only screen and (max-width: 850px) {
+    div.main {
+        padding-left: 0;
+        display: inline-block;
+    }
+    div.main form {
+        width: 100%;
+    }
+    footer {
+        display: inline-block;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        bottom: 25px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    div.main header {
+        text-align: center;
+    }
+    div.main header p {
+        width: 280px;
+        text-align: left;
+        display: inline-block;
+    }
+    div.main form {
+        width: 100%;
+        text-align: center;
+    }
+    footer {
+        display: inline-block;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        bottom: 25px;
+    }
+}
+@media only screen and (min-height: 650px){
+    footer {
+        bottom: 65px;
+    }
 }
