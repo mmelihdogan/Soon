@@ -165,10 +165,10 @@ footer p span {
         margin-top: 0;
     }
 }
-@media only screen and (max-height: 475px){
+@media only screen and (max-height: 575px){
     footer {
         position: relative;
         overflow: auto;
-        margin-top: 40px;
+        margin-top: 130px;
     }
 }
