@@ -24,6 +24,7 @@ div.main {
     padding-top: 100px;
     color: white;
     text-align: left;
+    overflow: auto;
 }
 div.main header h1 {
     font-size: 60px;
@@ -147,5 +148,27 @@ footer p span {
 @media only screen and (min-height: 650px){
     footer {
         bottom: 65px;
+    }
+}
+@media only screen and (max-width: 400px){
+    div.main {
+        width: 100%;
+        padding-top: 25px;
+    }
+    div.main header h1 {
+        font-size: 45px;
+    }
+    div.main form input{
+        display: block;
+        width: 75% !important;
+        margin: 15px 12.5%;
+        margin-top: 0;
+    }
+}
+@media only screen and (max-height: 475px){
+    footer {
+        position: relative;
+        overflow: auto;
+        margin-top: 40px;
     }
 }
