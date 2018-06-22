@@ -2,7 +2,7 @@
 ## Description
 A simple placeholder for a project that is yet to launch.
 ## Live Demo
-See a live demo of the Me template at https://html5rocket.github.io/Soon.
+See a live demo of the Soon template at https://html5rocket.github.io/Soon.
 ## Instructions
 
 ### 1. Download
