@@ -21,6 +21,6 @@ Edit the links on the footer to fit whatever account you'd like to link to. Feel
 All HTML5 Rocket templates are licensed under the CC0 License, which means that you can use this template and others for free, and with no attribution whatsoever. However, HTML5 Rocket can and will not be held liable for any damages caused directly or indirectly from our templates.
 
 ## Photos and Resources Used
-All photos and resources used were licensed under the CC0 License.
+All photos and resources used are licensed under the CC0 License.
 
 - Background photo from https://www.pexels.com/photo/dawn-dusk-lake-lake-mcdonald-355423/
