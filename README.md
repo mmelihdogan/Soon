@@ -12,7 +12,7 @@ Download the template from our website at https://html5rocket.github.io.
 Edit the header, description, input and button text, and the copyright text.
 
 ### 3. Change Background
-Feel free to change the background photo by replacing "bg.jpg" at assets/img/bg.jpg.
+Feel free to change the background photo by replacing ```assets/img/bg.jpg```.
 
 ### 4. Edit Social Links
 Edit the links on the footer to fit whatever account you'd like to link to. Feel free to change both the url's of the links, and the SVGs inside the links to change the social media logos. Iconmonstr icons are recommended for free SVGs.
