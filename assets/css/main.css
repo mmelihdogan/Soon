@@ -5,7 +5,6 @@
 body {
     color: #414f57;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,10 +18,9 @@ body, input {
 }
 div.main {
     position: relative;
-    width: 400px;
     padding-left: 100px;
     padding-top: 100px;
-    color: white;
+    color: black;
     text-align: left;
     overflow: auto;
 }
@@ -39,42 +37,11 @@ div.main header p {
 div.main header p strong {
     font-weight: 600;
 }
-div.main form {
-    margin-top: 35px;
-}
-div.main form input {
-    border: none;
-    display: inline-block;
-    font-size: 20px;
-    line-height: 1;
-    background-color: transparent;
-    outline: none;
-    height: 50px;
-    padding: 0 10px;
-    border: 1px solid rgba(255,255,255,0.4);
-    transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out,color 0.25s ease-in-out;
-    box-sizing: border-box;
-    vertical-align: text-top;
-    color: rgba(255,255,255,0.7);
-}
-div.main form input[type=text]:focus,div.main form input[type=submit]:hover {
-    background-color: rgba(255,255,255,0.05);
-    border-color: white;
-    color: white;
-}
-div.main form input[type=text]{
-    margin-right: 10px;
-    width: 250px;
-}
-div.main form input[type=submit]{
-    padding: 0 15px;
-    cursor: pointer;
-}
 footer {
     position: absolute;
     bottom: 35px;
     left: 100px;
-    color: rgba(255,255,255,0.7);
+    color: black;
 }
 footer div.links {
     display: block;
